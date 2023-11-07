@@ -8,12 +8,12 @@
       loading="lazy"
     />
   </figure>
-  <!--<figcaption class="text-sm italic">
+  <figcaption class="text-sm italic">
     {{ $alt | $.Page.RenderString }}
-  </figcaption>-->
+  </figcaption>
 {{ else }}
   {{ $image := .Page.Resources.GetMatch .Destination }}
-  {{ $alt := $alt | $.Page.RenderString }}
+  <!--{{ $alt := $alt | $.Page.RenderString }}-->
 
   {{ $tinyw := default "500x webp" }}
   {{ $smallw := default "800x webp" }}
