@@ -1,0 +1,15 @@
+{
+  "site": {
+    "id": "231af4a4-e176-4b3a-adb3-47e5efe312d1",
+    "team": "42b5bda1-ef10-4c61-9b03-34bf37f32cdb",
+    "platform": "ipfs",
+    "source": "github",
+    "name": "solitary-block-6292"
+  },
+  "build": {
+    "baseDir": "",
+    "publicDir": "public",
+    "command": "yarn && hugo",
+    "rootDir": ""
+  }
+}
