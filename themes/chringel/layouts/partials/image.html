@@ -12,6 +12,7 @@
     {{ $alt | $.Page.RenderString }}
   </figcaption>
 {{ else }}
+<!--
   {{ $image := .Page.Resources.GetMatch .Destination }}
   {{ $alt := $alt | $.Page.RenderString }}
 
@@ -31,7 +32,7 @@
   {{ $medium := $data.Get "medium" }}
   {{ $large := $data.Get "large" }}
 
-
+-->
   <figure>
     <a href="{{ $image.RelPermalink }}">
       <picture>
