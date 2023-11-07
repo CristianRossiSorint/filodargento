@@ -8,11 +8,10 @@
       loading="lazy"
     />
   </figure>
-  <figcaption class="text-sm italic">
+  <!--<figcaption class="text-sm italic">
     {{ $alt | $.Page.RenderString }}
-  </figcaption>
+  </figcaption>-->
 {{ else }}
-<!--
   {{ $image := .Page.Resources.GetMatch .Destination }}
   {{ $alt := $alt | $.Page.RenderString }}
 
@@ -32,7 +31,7 @@
   {{ $medium := $data.Get "medium" }}
   {{ $large := $data.Get "large" }}
 
--->
+
   <figure>
     <a href="{{ $image.RelPermalink }}">
       <picture>
